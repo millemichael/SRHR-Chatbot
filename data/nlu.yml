@@ -1,0 +1,159 @@
+version: "2.0"
+
+nlu:
+- intent: greet
+  examples: |
+    - hey
+    - hello
+    - hi
+    - hello there
+    - good morning
+    - good evening
+    - moin
+    - mambo
+    - za kwako
+    - mzima
+    - oya
+    - habari
+    - za saizi
+    - hujambo
+    - vipi
+    - za jioni
+    - za asubuhi
+    - za mchana
+    - habari yako
+    - niaje
+    - niambie 
+    - nambie
+    - kwema
+    - salama 
+    - wewe
+    - hey there
+    - let's go
+    - hey dude
+    - goodmorning
+    - goodevening
+    - good afternoon
+
+- intent: meaning_abort
+  examples: |
+    - kutoa mimba ni nini?
+    - utoaji mimba ni nini?
+    - utoaji mimba
+    - kutoa mimba
+
+
+- intent: ways_to_abort
+  examples: |
+   - njia za kutoa mimba ni zipi?
+   - njia za kutoa  mimba
+   - natoaje mimba
+   - mimba inatokaje
+   - njia salama ya kutoa mimba
+   - najuaje mimba imetoka
+
+- intent: effects_of_abortion
+  examples: |
+    - madhara ya kutoa mimba ni nini?
+    - hasara za kutoa?
+    - hasara za kutoa mimba ni nini?
+    - nikitoa mimba ntakufa?
+    - nikitoa mimba ntatokewa na nini?
+
+
+- intent: goodbye
+  examples: |
+    - good afternoon
+    - cu
+    - good by
+    - cee you later
+    - good night
+    - bye
+    - goodbye
+    - have a nice day
+    - see you around
+    - bye bye
+    - see you later
+    - kwaheri
+    - badae
+    - bye
+    - Asante
+    - nimeelewa
+    - see yah
+    - see you next time
+    - 
+
+- intent: affirm
+  examples: |
+    - yes
+    - y
+    - indeed
+    - of course
+    - that sounds good
+    - correct
+    - ndio
+    - sawa
+    - okay
+    - haina shida
+    - barida
+    - baridi
+    - yaa
+    - ya
+    - yah
+    
+
+- intent: deny
+  examples: |
+    - no
+    - n
+    - never
+    - I don't think so
+    - don't like that
+    - no way
+    - not really
+    - hapana
+    - sitaki
+    - staki
+    - nah
+    
+
+- intent: mood_great
+  examples: |
+    - perfect
+    - great
+    - amazing
+    - feeling like a king
+    - wonderful
+    - I am feeling very good
+    - I am great
+    - I am amazing
+    - I am going to save the world
+    - super stoked
+    - extremely good
+    - so so perfect
+    - so good
+    - so perfect
+
+- intent: mood_unhappy
+  examples: |
+    - my day was horrible
+    - I am sad
+    - I don't feel very well
+    - I am disappointed
+    - super sad
+    - I'm so sad
+    - sad
+    - very sad
+    - unhappy
+    - not good
+    - not very good
+    - extremly sad
+    - so saad
+    - so sad
+
+- intent: bot_challenge
+  examples: |
+    - are you a bot?
+    - are you a human?
+    - am I talking to a bot?
+    - am I talking to a human?
